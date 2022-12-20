@@ -1,0 +1,569 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"add_dependencies",
+			"gtsamAddExesGlob_impl",
+			"gtsamAddExamplesGlob"
+		],
+		"files" : 
+		[
+			"gtsam/cmake/GtsamTesting.cmake",
+			"gtsam/CMakeLists.txt",
+			"gtsam/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "CameraResectioning::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "CombinedImuFactorsExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "CreateSFMExampleData::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "DiscreteBayesNetExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "DiscreteBayesNet_FG::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "FisheyeExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "HMMExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "IMUKittiExampleGPS::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "ISAM2Example_SmartFactor::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "ImuFactorsExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "ImuFactorsExample2::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "InverseKinematicsExampleExpressions::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "LocalizationExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "METISOrderingExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "OdometryExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "PlanarSLAMExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "Pose2SLAMExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "Pose2SLAMExampleExpressions::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "Pose2SLAMExample_g2o::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "Pose2SLAMExample_graph::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "Pose2SLAMExample_graphviz::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "Pose2SLAMExample_lago::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "Pose2SLAMStressTest::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "Pose2SLAMwSPCG::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "Pose3Localization::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "Pose3SLAMExampleExpressions_BearingRangeWithTransform::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "Pose3SLAMExample_changeKeys::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "Pose3SLAMExample_g2o::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "Pose3SLAMExample_initializePose3Chordal::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "Pose3SLAMExample_initializePose3Gradient::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "RangeISAMExample_plaza2::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "SFMExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "SFMExampleExpressions::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "SFMExampleExpressions_bal::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "SFMExample_SmartFactor::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "SFMExample_SmartFactorPCG::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "SFMExample_bal::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "SFMExample_bal_COLAMD_METIS::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "SelfCalibrationExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 46,
+			"id" : "ShonanAveragingCLI::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 47,
+			"id" : "SimpleRotation::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "SolverComparer::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "StereoVOExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "StereoVOExample_large::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "TimeTBB::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 52,
+			"id" : "UGM_chain::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 53,
+			"id" : "UGM_small::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "VisualISAM2Example::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "VisualISAMExample::@fa3eef1487c99c6b23c1"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "easyPoint2KalmanFilter::@fa3eef1487c99c6b23c1"
+		}
+	],
+	"id" : "examples::@bad977bbbe6ede080c3c",
+	"name" : "examples",
+	"paths" : 
+	{
+		"build" : "gtsam",
+		"source" : "gtsam"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

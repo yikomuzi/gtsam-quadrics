@@ -1,0 +1,104 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"GtsamMakeConfigFile"
+		],
+		"files" : 
+		[
+			"gtsam/cmake/GtsamMakeConfigFile.cmake",
+			"gtsam/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/GTSAM",
+			"paths" : 
+			[
+				"cmake-build-debug/gtsam/gtsam_extra.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/cmake/GTSAM",
+			"paths" : 
+			[
+				"cmake-build-debug/gtsam/GTSAMConfig.cmake",
+				"cmake-build-debug/gtsam/GTSAMConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/GTSAM",
+			"exportName" : "GTSAM-exports",
+			"exportTargets" : 
+			[
+				{
+					"id" : "metis-gtsam::@270a7253cc346cdb8fa0",
+					"index" : 122
+				},
+				{
+					"id" : "metis-gtsam-if::@bad977bbbe6ede080c3c",
+					"index" : 0
+				},
+				{
+					"id" : "CppUnitLite::@3e2acd24cbe856ffec44",
+					"index" : 4
+				},
+				{
+					"id" : "gtsam::@0173fc19208c81b7776e",
+					"index" : 120
+				}
+			],
+			"paths" : 
+			[
+				"gtsam/CMakeFiles/Export/lib/cmake/GTSAM/GTSAM-exports.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam",
+		"source" : "gtsam"
+	}
+}

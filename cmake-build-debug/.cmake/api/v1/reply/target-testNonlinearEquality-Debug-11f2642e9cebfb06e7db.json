@@ -1,0 +1,377 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "gtsam/tests/testNonlinearEquality"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"gtsamAddTestsGlob_impl",
+			"gtsamAddTestsGlob",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"target_compile_options",
+			"gtsam_apply_build_flags",
+			"target_compile_definitions",
+			"set_property"
+		],
+		"files" : 
+		[
+			"gtsam/cmake/GtsamTesting.cmake",
+			"gtsam/tests/CMakeLists.txt",
+			"gtsam/cmake/HandleGlobalBuildFlags.cmake",
+			"gtsam/CMakeLists.txt",
+			"gtsam/cmake/GtsamBuildTypes.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 58,
+				"parent" : 5
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 266,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 268,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 263,
+				"parent" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -Wall -Wextra -g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-march=native"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wreturn-local-addr"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=return-local-addr"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wreturn-type"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=return-type"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-inline"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-unused-local-typedefs"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "EIGEN_INITIALIZE_MATRICES_BY_NAN"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "TOPSRCDIR=\"/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/gtsam\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_DEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/gtsam"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/cmake-build-debug/gtsam"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/gtsam/CppUnitLite"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/gtsam/gtsam/3rdparty/Eigen"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/gtsam/gtsam/3rdparty/metis/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/gtsam/gtsam/3rdparty/metis/libmetis"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/gtsam/gtsam/3rdparty/metis/GKlib"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/gtsam/gtsam/3rdparty/SuiteSparse_config"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/gtsam/gtsam/3rdparty/Spectra"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/gtsam/gtsam/3rdparty/CCOLAMD/Include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "metis-gtsam::@270a7253cc346cdb8fa0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "CppUnitLite::@3e2acd24cbe856ffec44"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "gtsam::@0173fc19208c81b7776e"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Unit tests/tests"
+	},
+	"id" : "testNonlinearEquality::@6223fc220bc08ce69792",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++11 -Wall -Wextra -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/cmake-build-debug/gtsam/gtsam:/home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/cmake-build-debug/gtsam/gtsam/3rdparty/metis/libmetis",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "gtsam/CppUnitLite/libCppUnitLiteDebug.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "gtsam/gtsam/libgtsamDebug.so.4.1.1",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_serialization.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_atomic.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_timer.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_chrono.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtbb.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtbbmalloc.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "gtsam/gtsam/3rdparty/metis/libmetis/libmetis-gtsamDebug.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "testNonlinearEquality",
+	"nameOnDisk" : "testNonlinearEquality",
+	"paths" : 
+	{
+		"build" : "gtsam/tests",
+		"source" : "gtsam/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "gtsam/tests/testNonlinearEquality.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

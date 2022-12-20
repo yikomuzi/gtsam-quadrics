@@ -1,0 +1,49 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/gtsam/basis/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/basis",
+			"paths" : 
+			[
+				"gtsam/gtsam/basis/Basis.h",
+				"gtsam/gtsam/basis/BasisFactors.h",
+				"gtsam/gtsam/basis/Chebyshev.h",
+				"gtsam/gtsam/basis/Chebyshev2.h",
+				"gtsam/gtsam/basis/FitBasis.h",
+				"gtsam/gtsam/basis/Fourier.h",
+				"gtsam/gtsam/basis/ParameterMatrix.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/basis",
+		"source" : "gtsam/gtsam/basis"
+	}
+}

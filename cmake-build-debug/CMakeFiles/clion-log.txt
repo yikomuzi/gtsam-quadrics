@@ -1,0 +1,121 @@
+/opt/clion-2022.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion-2022.1.3/bin/ninja/linux/ninja -G Ninja -S /home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics -B /home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/cmake-build-debug
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_HAS_WSUGGEST_OVERRIDE
+-- Performing Test COMPILER_HAS_WSUGGEST_OVERRIDE - Success
+-- Performing Test COMPILER_HAS_WMISSING_OVERRIDE
+-- Performing Test COMPILER_HAS_WMISSING_OVERRIDE - Failed
+-- GTSAM_POSE3_EXPMAP=ON, enabling GTSAM_ROT3_EXPMAP as well
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Boost: /usr/include (found suitable version "1.65.1", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic 
+-- Found Eigen version: 3.3.7
+-- Looking for execinfo.h
+-- Looking for execinfo.h - found
+-- Looking for getline
+-- Looking for getline - found
+-- checking for thread-local storage - found
+-- Could NOT find MKL (missing: MKL_INCLUDE_DIR MKL_LIBRARIES) 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found TBB: /usr/include (found suitable version "2017.0", minimum required is "4.4") found components: tbb tbbmalloc 
+-- Building 3rdparty
+-- Could NOT find GeographicLib (missing: GeographicLib_LIBRARY_DIRS GeographicLib_LIBRARIES GeographicLib_INCLUDE_DIRS) 
+-- Building base
+-- Building basis
+-- Building geometry
+-- Building inference
+-- Building symbolic
+-- Building discrete
+-- Building linear
+-- Building nonlinear
+-- Building sam
+-- Building sfm
+-- Building slam
+-- Building navigation
+-- GTSAM Version: 4.1.1
+-- Install prefix: /usr/local
+-- Building GTSAM - shared: ON
+-- Wrote /home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/cmake-build-debug/gtsam/GTSAMConfig.cmake
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.13") found components: doxygen dot 
+-- ===============================================================
+-- ================  Configuration Options  ======================
+--  CMAKE_CXX_COMPILER_ID type                       : GNU
+--  CMAKE_CXX_COMPILER_VERSION                       : 7.5.0
+--  CMake version                                    : 3.22.3
+--  CMake generator                                  : Ninja
+--  CMake build tool                                 : /opt/clion-2022.1.3/bin/ninja/linux/ninja
+-- Build flags                                               
+--  Build Tests                                      : Enabled
+--  Build examples with 'make all'                   : Enabled
+--  Build timing scripts with 'make all'             : Disabled
+--  Build Docs                                       : Enabled
+--  Build shared GTSAM libraries                     : Enabled
+--  Put build type in library name                   : Enabled
+--  Build libgtsam_unstable                          : Disabled
+--  Build GTSAM unstable Python                      : Enabled
+--  Build MATLAB Toolbox for unstable                : Disabled
+--  Build for native architecture                    : Enabled
+--  Build type                                       : Debug
+--  C compilation flags                              :  -g
+--  C++ compilation flags                            :  -std=c++11 -Wall -Wextra -g
+--  GTSAM_COMPILE_FEATURES_PUBLIC                    : cxx_std_11
+--  GTSAM_COMPILE_OPTIONS_PUBLIC                     : -march=native
+--  GTSAM_COMPILE_DEFINITIONS_PUBLIC                 : 
+--  GTSAM_COMPILE_OPTIONS_PUBLIC_DEBUG               : 
+--  GTSAM_COMPILE_DEFINITIONS_PUBLIC_DEBUG           : 
+--  GTSAM_COMPILE_OPTIONS_PUBLIC_RELEASE             : 
+--  GTSAM_COMPILE_DEFINITIONS_PUBLIC_RELEASE         : 
+--  GTSAM_COMPILE_OPTIONS_PUBLIC_TIMING              : 
+--  GTSAM_COMPILE_DEFINITIONS_PUBLIC_TIMING          : 
+--  GTSAM_COMPILE_OPTIONS_PUBLIC_PROFILING           : 
+--  GTSAM_COMPILE_DEFINITIONS_PUBLIC_PROFILING       : 
+--  GTSAM_COMPILE_OPTIONS_PUBLIC_RELWITHDEBINFO      : 
+--  GTSAM_COMPILE_DEFINITIONS_PUBLIC_RELWITHDEBINFO  : 
+--  GTSAM_COMPILE_OPTIONS_PUBLIC_MINSIZEREL          : 
+--  GTSAM_COMPILE_DEFINITIONS_PUBLIC_MINSIZEREL      : 
+--  Use System Eigen                                 : OFF (Using version: 3.3.7)
+--  Use System Metis                                 : OFF
+--  Use Intel TBB                                    : Yes (Version: 2017.0)
+--  Eigen will use MKL                               : MKL not found
+--  Eigen will use MKL and OpenMP                    : OpenMP found but GTSAM_WITH_EIGEN_MKL is disabled
+--  Default allocator                                : TBB
+--  Cheirality exceptions enabled                    : YES
+--  Build with ccache                                : No
+-- Packaging flags
+--  CPack Source Generator                           : TGZ
+--  CPack Generator                                  : TGZ
+-- GTSAM flags                                               
+--  Quaternions as default Rot3                      : Disabled
+--  Runtime consistency checking                     : Disabled
+--  Rot3 retract is full ExpMap                      : Enabled
+--  Pose3 retract is full ExpMap                     : Enabled
+--  Allow features deprecated in GTSAM 4.1           : Enabled
+--  Metis-based Nested Dissection                    : Enabled
+--  Use tangent-space preintegration                 : Enabled
+-- MATLAB toolbox flags
+--  Install MATLAB toolbox                           : Disabled
+-- Python toolbox flags                                      
+--  Build Python module with pybind                  : Disabled
+-- ===============================================================
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/Desktop/gtsam-quadrics_study/gtsam-quadrics/cmake-build-debug

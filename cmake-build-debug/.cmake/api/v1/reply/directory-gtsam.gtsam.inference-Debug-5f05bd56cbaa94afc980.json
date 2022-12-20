@@ -1,0 +1,76 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/gtsam/inference/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/inference",
+			"paths" : 
+			[
+				"gtsam/gtsam/inference/BayesNet-inst.h",
+				"gtsam/gtsam/inference/BayesNet.h",
+				"gtsam/gtsam/inference/BayesTree-inst.h",
+				"gtsam/gtsam/inference/BayesTree.h",
+				"gtsam/gtsam/inference/BayesTreeCliqueBase-inst.h",
+				"gtsam/gtsam/inference/BayesTreeCliqueBase.h",
+				"gtsam/gtsam/inference/ClusterTree-inst.h",
+				"gtsam/gtsam/inference/ClusterTree.h",
+				"gtsam/gtsam/inference/Conditional-inst.h",
+				"gtsam/gtsam/inference/Conditional.h",
+				"gtsam/gtsam/inference/EliminateableFactorGraph-inst.h",
+				"gtsam/gtsam/inference/EliminateableFactorGraph.h",
+				"gtsam/gtsam/inference/EliminationTree-inst.h",
+				"gtsam/gtsam/inference/EliminationTree.h",
+				"gtsam/gtsam/inference/Factor.h",
+				"gtsam/gtsam/inference/FactorGraph-inst.h",
+				"gtsam/gtsam/inference/FactorGraph.h",
+				"gtsam/gtsam/inference/ISAM-inst.h",
+				"gtsam/gtsam/inference/ISAM.h",
+				"gtsam/gtsam/inference/JunctionTree-inst.h",
+				"gtsam/gtsam/inference/JunctionTree.h",
+				"gtsam/gtsam/inference/Key.h",
+				"gtsam/gtsam/inference/LabeledSymbol.h",
+				"gtsam/gtsam/inference/MetisIndex-inl.h",
+				"gtsam/gtsam/inference/MetisIndex.h",
+				"gtsam/gtsam/inference/Ordering.h",
+				"gtsam/gtsam/inference/Symbol.h",
+				"gtsam/gtsam/inference/VariableIndex-inl.h",
+				"gtsam/gtsam/inference/VariableIndex.h",
+				"gtsam/gtsam/inference/VariableSlots.h",
+				"gtsam/gtsam/inference/graph-inl.h",
+				"gtsam/gtsam/inference/graph.h",
+				"gtsam/gtsam/inference/inference-inst.h",
+				"gtsam/gtsam/inference/inferenceExceptions.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/inference",
+		"source" : "gtsam/gtsam/inference"
+	}
+}

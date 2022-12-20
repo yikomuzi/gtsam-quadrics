@@ -1,0 +1,77 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/gtsam/slam/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/slam",
+			"paths" : 
+			[
+				"gtsam/gtsam/slam/AntiFactor.h",
+				"gtsam/gtsam/slam/BearingFactor.h",
+				"gtsam/gtsam/slam/BearingRangeFactor.h",
+				"gtsam/gtsam/slam/BetweenFactor.h",
+				"gtsam/gtsam/slam/BoundingConstraint.h",
+				"gtsam/gtsam/slam/EssentialMatrixConstraint.h",
+				"gtsam/gtsam/slam/EssentialMatrixFactor.h",
+				"gtsam/gtsam/slam/FrobeniusFactor.h",
+				"gtsam/gtsam/slam/GeneralSFMFactor.h",
+				"gtsam/gtsam/slam/InitializePose.h",
+				"gtsam/gtsam/slam/InitializePose3.h",
+				"gtsam/gtsam/slam/JacobianFactorQ.h",
+				"gtsam/gtsam/slam/JacobianFactorQR.h",
+				"gtsam/gtsam/slam/JacobianFactorSVD.h",
+				"gtsam/gtsam/slam/KarcherMeanFactor-inl.h",
+				"gtsam/gtsam/slam/KarcherMeanFactor.h",
+				"gtsam/gtsam/slam/OrientedPlane3Factor.h",
+				"gtsam/gtsam/slam/PoseRotationPrior.h",
+				"gtsam/gtsam/slam/PoseTranslationPrior.h",
+				"gtsam/gtsam/slam/PriorFactor.h",
+				"gtsam/gtsam/slam/ProjectionFactor.h",
+				"gtsam/gtsam/slam/RangeFactor.h",
+				"gtsam/gtsam/slam/ReferenceFrameFactor.h",
+				"gtsam/gtsam/slam/RegularImplicitSchurFactor.h",
+				"gtsam/gtsam/slam/RotateFactor.h",
+				"gtsam/gtsam/slam/SmartFactorBase.h",
+				"gtsam/gtsam/slam/SmartFactorParams.h",
+				"gtsam/gtsam/slam/SmartProjectionFactor.h",
+				"gtsam/gtsam/slam/SmartProjectionPoseFactor.h",
+				"gtsam/gtsam/slam/SmartProjectionRigFactor.h",
+				"gtsam/gtsam/slam/StereoFactor.h",
+				"gtsam/gtsam/slam/TriangulationFactor.h",
+				"gtsam/gtsam/slam/dataset.h",
+				"gtsam/gtsam/slam/expressions.h",
+				"gtsam/gtsam/slam/lago.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/slam",
+		"source" : "gtsam/gtsam/slam"
+	}
+}

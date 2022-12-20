@@ -1,0 +1,189 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"gtsamAddTestsGlob_impl",
+			"gtsamAddTestsGlob",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"gtsam/cmake/GtsamTesting.cmake",
+			"gtsam/gtsam/discrete/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "testAlgebraicDecisionTree::@0ec46c6e1492ee7cc1af"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "testDecisionTree::@0ec46c6e1492ee7cc1af"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "testDecisionTreeFactor::@0ec46c6e1492ee7cc1af"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "testDiscreteBayesNet::@0ec46c6e1492ee7cc1af"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "testDiscreteBayesTree::@0ec46c6e1492ee7cc1af"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "testDiscreteConditional::@0ec46c6e1492ee7cc1af"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "testDiscreteFactor::@0ec46c6e1492ee7cc1af"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "testDiscreteFactorGraph::@0ec46c6e1492ee7cc1af"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "testDiscreteMarginals::@0ec46c6e1492ee7cc1af"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "testSignature::@0ec46c6e1492ee7cc1af"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Unit tests"
+	},
+	"id" : "check.discrete::@0ec46c6e1492ee7cc1af",
+	"name" : "check.discrete",
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/discrete/tests",
+		"source" : "gtsam/gtsam/discrete/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/gtsam/gtsam/discrete/tests/CMakeFiles/check.discrete",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/gtsam/gtsam/discrete/tests/CMakeFiles/check.discrete.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,78 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/gtsam/geometry/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/geometry",
+			"paths" : 
+			[
+				"gtsam/gtsam/geometry/BearingRange.h",
+				"gtsam/gtsam/geometry/Cal3.h",
+				"gtsam/gtsam/geometry/Cal3Bundler.h",
+				"gtsam/gtsam/geometry/Cal3DS2.h",
+				"gtsam/gtsam/geometry/Cal3DS2_Base.h",
+				"gtsam/gtsam/geometry/Cal3Fisheye.h",
+				"gtsam/gtsam/geometry/Cal3Unified.h",
+				"gtsam/gtsam/geometry/Cal3_S2.h",
+				"gtsam/gtsam/geometry/Cal3_S2Stereo.h",
+				"gtsam/gtsam/geometry/CalibratedCamera.h",
+				"gtsam/gtsam/geometry/CameraSet.h",
+				"gtsam/gtsam/geometry/Cyclic.h",
+				"gtsam/gtsam/geometry/EssentialMatrix.h",
+				"gtsam/gtsam/geometry/Line3.h",
+				"gtsam/gtsam/geometry/OrientedPlane3.h",
+				"gtsam/gtsam/geometry/PinholeCamera.h",
+				"gtsam/gtsam/geometry/PinholePose.h",
+				"gtsam/gtsam/geometry/PinholeSet.h",
+				"gtsam/gtsam/geometry/Point2.h",
+				"gtsam/gtsam/geometry/Point3.h",
+				"gtsam/gtsam/geometry/Pose2.h",
+				"gtsam/gtsam/geometry/Pose3.h",
+				"gtsam/gtsam/geometry/Quaternion.h",
+				"gtsam/gtsam/geometry/Rot2.h",
+				"gtsam/gtsam/geometry/Rot3.h",
+				"gtsam/gtsam/geometry/SO3.h",
+				"gtsam/gtsam/geometry/SO4.h",
+				"gtsam/gtsam/geometry/SOn-inl.h",
+				"gtsam/gtsam/geometry/SOn.h",
+				"gtsam/gtsam/geometry/Similarity3.h",
+				"gtsam/gtsam/geometry/SimpleCamera.h",
+				"gtsam/gtsam/geometry/StereoCamera.h",
+				"gtsam/gtsam/geometry/StereoPoint2.h",
+				"gtsam/gtsam/geometry/Unit3.h",
+				"gtsam/gtsam/geometry/concepts.h",
+				"gtsam/gtsam/geometry/triangulation.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/geometry",
+		"source" : "gtsam/gtsam/geometry"
+	}
+}

@@ -1,0 +1,379 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"add_dependencies",
+			"gtsamAddExesGlob_impl",
+			"gtsamAddTimingGlob"
+		],
+		"files" : 
+		[
+			"gtsam/cmake/GtsamTesting.cmake",
+			"gtsam/CMakeLists.txt",
+			"gtsam/timing/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 6
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "timeAdaptAutoDiff::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "timeBatch::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "timeCalibratedCamera::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "timeCameraExpression::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "timeCholesky::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "timeFactorOverhead::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "timeGaussianFactor::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "timeGaussianFactorGraph::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "timeIncremental::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "timeLago::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "timeMatrix::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "timeMatrixOps::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "timeOneCameraExpression::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "timePinholeCamera::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "timePose2::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "timePose3::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "timeRot2::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "timeRot3::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "timeSFMBAL::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "timeSFMBALautodiff::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "timeSFMBALcamTnav::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "timeSFMBALnavTcam::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "timeSFMBALsmart::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "timeSFMExpressions::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "timeSchurFactors::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "timeShonanFactor::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "timeStereoCamera::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "timeTest::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "timeVirtual::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "timeVirtual2::@af643c815fc005a9d8db"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "timeiSAM2Chain::@af643c815fc005a9d8db"
+		}
+	],
+	"id" : "timing::@bad977bbbe6ede080c3c",
+	"name" : "timing",
+	"paths" : 
+	{
+		"build" : "gtsam",
+		"source" : "gtsam"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/gtsam/3rdparty/metis/libmetis/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"gtsam/gtsam/3rdparty/metis/libmetis/libmetis-gtsamDebug.so"
+			],
+			"targetId" : "metis-gtsam::@270a7253cc346cdb8fa0",
+			"targetIndex" : 122,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/3rdparty/metis/libmetis",
+		"source" : "gtsam/gtsam/3rdparty/metis/libmetis"
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"gtsamAddTestsGlob_impl",
+			"gtsamAddTestsGlob"
+		],
+		"files" : 
+		[
+			"gtsam/cmake/GtsamTesting.cmake",
+			"gtsam/gtsam/base/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "testDebug::@2461d5130ef0478e5bd9"
+		}
+	],
+	"id" : "testDebug.run::@2461d5130ef0478e5bd9",
+	"name" : "testDebug.run",
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/base/tests",
+		"source" : "gtsam/gtsam/base/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/gtsam/gtsam/base/tests/CMakeFiles/testDebug.run",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/gtsam/gtsam/base/tests/CMakeFiles/testDebug.run.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

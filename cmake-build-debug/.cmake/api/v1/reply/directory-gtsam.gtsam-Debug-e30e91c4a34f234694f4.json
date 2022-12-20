@@ -1,0 +1,94 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/gtsam/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam",
+			"paths" : 
+			[
+				"gtsam/gtsam/global_includes.h",
+				"gtsam/gtsam/precompiled_header.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam",
+			"paths" : 
+			[
+				"cmake-build-debug/gtsam/gtsam/config.h",
+				"cmake-build-debug/gtsam/gtsam/dllexport.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"gtsam/gtsam/libgtsamDebug.so.4.1.1",
+				"gtsam/gtsam/libgtsamDebug.so.4"
+			],
+			"targetId" : "gtsam::@0173fc19208c81b7776e",
+			"targetIndex" : 120,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"gtsam/gtsam/libgtsamDebug.so"
+			],
+			"targetId" : "gtsam::@0173fc19208c81b7776e",
+			"targetIndex" : 120,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam",
+		"source" : "gtsam/gtsam"
+	}
+}

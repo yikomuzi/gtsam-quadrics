@@ -1,0 +1,84 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libgtsam_quadrics.so"
+			],
+			"targetId" : "gtsam_quadrics::@6890427a1f51a3e7e1df",
+			"targetIndex" : 121,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam_quadrics/base",
+			"paths" : 
+			[
+				"gtsam_quadrics/base/QuadricProjectionException.h",
+				"gtsam_quadrics/base/Utilities.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam_quadrics/geometry",
+			"paths" : 
+			[
+				"gtsam_quadrics/geometry/AlignedBox2.h",
+				"gtsam_quadrics/geometry/AlignedBox3.h",
+				"gtsam_quadrics/geometry/BoundingBoxFactor.h",
+				"gtsam_quadrics/geometry/ConstrainedDualQuadric.h",
+				"gtsam_quadrics/geometry/DualConic.h",
+				"gtsam_quadrics/geometry/QuadricAngleFactor.h",
+				"gtsam_quadrics/geometry/QuadricCamera.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

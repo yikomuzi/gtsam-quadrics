@@ -26,6 +26,7 @@
 
 using namespace std;
 using namespace gtsam_quadrics;
+using namespace gtsam;
 
 static const DualConic conic1 = DualConic((Matrix33() << 2.181975e+06, 1.843200e+06, 7.680000e+03,
                                               1.843200e+06, 1.106775e+06, 5.760000e+03,

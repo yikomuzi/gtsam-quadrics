@@ -27,6 +27,7 @@
 
 using namespace std;
 using namespace gtsam_quadrics;
+using namespace gtsam;
 
 static const Vector4 vector1(0,0,0,0);
 static const Vector4 vector2(2.0,3.0,4.0,5.0);

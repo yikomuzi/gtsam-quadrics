@@ -1,0 +1,104 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/gtsam/nonlinear/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/nonlinear",
+			"paths" : 
+			[
+				"gtsam/gtsam/nonlinear/AdaptAutoDiff.h",
+				"gtsam/gtsam/nonlinear/CustomFactor.h",
+				"gtsam/gtsam/nonlinear/DoglegOptimizer.h",
+				"gtsam/gtsam/nonlinear/DoglegOptimizerImpl.h",
+				"gtsam/gtsam/nonlinear/Expression-inl.h",
+				"gtsam/gtsam/nonlinear/Expression.h",
+				"gtsam/gtsam/nonlinear/ExpressionFactor.h",
+				"gtsam/gtsam/nonlinear/ExpressionFactorGraph.h",
+				"gtsam/gtsam/nonlinear/ExtendedKalmanFilter-inl.h",
+				"gtsam/gtsam/nonlinear/ExtendedKalmanFilter.h",
+				"gtsam/gtsam/nonlinear/FunctorizedFactor.h",
+				"gtsam/gtsam/nonlinear/GaussNewtonOptimizer.h",
+				"gtsam/gtsam/nonlinear/GncOptimizer.h",
+				"gtsam/gtsam/nonlinear/GncParams.h",
+				"gtsam/gtsam/nonlinear/ISAM2-impl.h",
+				"gtsam/gtsam/nonlinear/ISAM2.h",
+				"gtsam/gtsam/nonlinear/ISAM2Clique.h",
+				"gtsam/gtsam/nonlinear/ISAM2Params.h",
+				"gtsam/gtsam/nonlinear/ISAM2Result.h",
+				"gtsam/gtsam/nonlinear/ISAM2UpdateParams.h",
+				"gtsam/gtsam/nonlinear/LevenbergMarquardtOptimizer.h",
+				"gtsam/gtsam/nonlinear/LevenbergMarquardtParams.h",
+				"gtsam/gtsam/nonlinear/LinearContainerFactor.h",
+				"gtsam/gtsam/nonlinear/Marginals.h",
+				"gtsam/gtsam/nonlinear/NonlinearConjugateGradientOptimizer.h",
+				"gtsam/gtsam/nonlinear/NonlinearEquality.h",
+				"gtsam/gtsam/nonlinear/NonlinearFactor.h",
+				"gtsam/gtsam/nonlinear/NonlinearFactorGraph.h",
+				"gtsam/gtsam/nonlinear/NonlinearISAM.h",
+				"gtsam/gtsam/nonlinear/NonlinearOptimizer.h",
+				"gtsam/gtsam/nonlinear/NonlinearOptimizerParams.h",
+				"gtsam/gtsam/nonlinear/PriorFactor.h",
+				"gtsam/gtsam/nonlinear/Symbol.h",
+				"gtsam/gtsam/nonlinear/Values-inl.h",
+				"gtsam/gtsam/nonlinear/Values.h",
+				"gtsam/gtsam/nonlinear/WhiteNoiseFactor.h",
+				"gtsam/gtsam/nonlinear/expressionTesting.h",
+				"gtsam/gtsam/nonlinear/expressions.h",
+				"gtsam/gtsam/nonlinear/factorTesting.h",
+				"gtsam/gtsam/nonlinear/nonlinearExceptions.h",
+				"gtsam/gtsam/nonlinear/utilities.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/nonlinear/internal",
+			"paths" : 
+			[
+				"gtsam/gtsam/nonlinear/internal/CallRecord.h",
+				"gtsam/gtsam/nonlinear/internal/ExecutionTrace.h",
+				"gtsam/gtsam/nonlinear/internal/ExpressionNode.h",
+				"gtsam/gtsam/nonlinear/internal/JacobianMap.h",
+				"gtsam/gtsam/nonlinear/internal/LevenbergMarquardtState.h",
+				"gtsam/gtsam/nonlinear/internal/NonlinearOptimizerState.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/nonlinear",
+		"source" : "gtsam/gtsam/nonlinear"
+	}
+}

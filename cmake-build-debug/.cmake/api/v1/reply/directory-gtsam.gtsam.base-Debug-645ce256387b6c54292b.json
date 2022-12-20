@@ -1,0 +1,118 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/gtsam/base/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/base",
+			"paths" : 
+			[
+				"gtsam/gtsam/base/ConcurrentMap.h",
+				"gtsam/gtsam/base/DSFMap.h",
+				"gtsam/gtsam/base/DSFVector.h",
+				"gtsam/gtsam/base/FastDefaultAllocator.h",
+				"gtsam/gtsam/base/FastList.h",
+				"gtsam/gtsam/base/FastMap.h",
+				"gtsam/gtsam/base/FastSet.h",
+				"gtsam/gtsam/base/FastVector.h",
+				"gtsam/gtsam/base/GenericValue.h",
+				"gtsam/gtsam/base/Group.h",
+				"gtsam/gtsam/base/Lie.h",
+				"gtsam/gtsam/base/LieMatrix.h",
+				"gtsam/gtsam/base/LieScalar.h",
+				"gtsam/gtsam/base/LieVector.h",
+				"gtsam/gtsam/base/Manifold.h",
+				"gtsam/gtsam/base/Matrix.h",
+				"gtsam/gtsam/base/OptionalJacobian.h",
+				"gtsam/gtsam/base/ProductLieGroup.h",
+				"gtsam/gtsam/base/SymmetricBlockMatrix.h",
+				"gtsam/gtsam/base/Testable.h",
+				"gtsam/gtsam/base/TestableAssertions.h",
+				"gtsam/gtsam/base/ThreadsafeException.h",
+				"gtsam/gtsam/base/Value.h",
+				"gtsam/gtsam/base/Vector.h",
+				"gtsam/gtsam/base/VectorSpace.h",
+				"gtsam/gtsam/base/VerticalBlockMatrix.h",
+				"gtsam/gtsam/base/WeightedSampler.h",
+				"gtsam/gtsam/base/chartTesting.h",
+				"gtsam/gtsam/base/cholesky.h",
+				"gtsam/gtsam/base/concepts.h",
+				"gtsam/gtsam/base/debug.h",
+				"gtsam/gtsam/base/lieProxies.h",
+				"gtsam/gtsam/base/make_shared.h",
+				"gtsam/gtsam/base/numericalDerivative.h",
+				"gtsam/gtsam/base/serialization.h",
+				"gtsam/gtsam/base/serializationTestHelpers.h",
+				"gtsam/gtsam/base/testLie.h",
+				"gtsam/gtsam/base/timing.h",
+				"gtsam/gtsam/base/treeTraversal-inst.h",
+				"gtsam/gtsam/base/types.h",
+				"gtsam/gtsam/base/utilities.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/base/treeTraversal",
+			"paths" : 
+			[
+				"gtsam/gtsam/base/treeTraversal/parallelTraversalTasks.h",
+				"gtsam/gtsam/base/treeTraversal/statistics.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/base/deprecated",
+			"paths" : 
+			[
+				"gtsam/gtsam/base/deprecated/LieMatrix.h",
+				"gtsam/gtsam/base/deprecated/LieScalar.h",
+				"gtsam/gtsam/base/deprecated/LieVector.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/base",
+		"source" : "gtsam/gtsam/base"
+	}
+}

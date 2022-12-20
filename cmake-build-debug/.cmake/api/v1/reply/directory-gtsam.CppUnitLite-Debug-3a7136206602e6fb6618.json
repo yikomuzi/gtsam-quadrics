@@ -1,0 +1,65 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/CppUnitLite/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CppUnitLite",
+			"paths" : 
+			[
+				"gtsam/CppUnitLite/Failure.h",
+				"gtsam/CppUnitLite/Test.h",
+				"gtsam/CppUnitLite/TestHarness.h",
+				"gtsam/CppUnitLite/TestRegistry.h",
+				"gtsam/CppUnitLite/TestResult.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"gtsam/CppUnitLite/libCppUnitLiteDebug.a"
+			],
+			"targetId" : "CppUnitLite::@3e2acd24cbe856ffec44",
+			"targetIndex" : 4,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/CppUnitLite",
+		"source" : "gtsam/CppUnitLite"
+	}
+}

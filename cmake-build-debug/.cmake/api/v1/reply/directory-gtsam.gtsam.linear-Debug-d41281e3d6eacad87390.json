@@ -1,0 +1,81 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/gtsam/linear/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/linear",
+			"paths" : 
+			[
+				"gtsam/gtsam/linear/AcceleratedPowerMethod.h",
+				"gtsam/gtsam/linear/BinaryJacobianFactor.h",
+				"gtsam/gtsam/linear/ConjugateGradientSolver.h",
+				"gtsam/gtsam/linear/Errors.h",
+				"gtsam/gtsam/linear/GaussianBayesNet.h",
+				"gtsam/gtsam/linear/GaussianBayesTree-inl.h",
+				"gtsam/gtsam/linear/GaussianBayesTree.h",
+				"gtsam/gtsam/linear/GaussianConditional-inl.h",
+				"gtsam/gtsam/linear/GaussianConditional.h",
+				"gtsam/gtsam/linear/GaussianDensity.h",
+				"gtsam/gtsam/linear/GaussianEliminationTree.h",
+				"gtsam/gtsam/linear/GaussianFactor.h",
+				"gtsam/gtsam/linear/GaussianFactorGraph.h",
+				"gtsam/gtsam/linear/GaussianISAM.h",
+				"gtsam/gtsam/linear/GaussianJunctionTree.h",
+				"gtsam/gtsam/linear/HessianFactor-inl.h",
+				"gtsam/gtsam/linear/HessianFactor.h",
+				"gtsam/gtsam/linear/IterativeSolver.h",
+				"gtsam/gtsam/linear/JacobianFactor-inl.h",
+				"gtsam/gtsam/linear/JacobianFactor.h",
+				"gtsam/gtsam/linear/KalmanFilter.h",
+				"gtsam/gtsam/linear/LossFunctions.h",
+				"gtsam/gtsam/linear/NoiseModel.h",
+				"gtsam/gtsam/linear/PCGSolver.h",
+				"gtsam/gtsam/linear/PowerMethod.h",
+				"gtsam/gtsam/linear/Preconditioner.h",
+				"gtsam/gtsam/linear/RegularHessianFactor.h",
+				"gtsam/gtsam/linear/RegularJacobianFactor.h",
+				"gtsam/gtsam/linear/Sampler.h",
+				"gtsam/gtsam/linear/Scatter.h",
+				"gtsam/gtsam/linear/SparseEigen.h",
+				"gtsam/gtsam/linear/SubgraphBuilder.h",
+				"gtsam/gtsam/linear/SubgraphPreconditioner.h",
+				"gtsam/gtsam/linear/SubgraphSolver.h",
+				"gtsam/gtsam/linear/VectorValues.h",
+				"gtsam/gtsam/linear/iterative-inl.h",
+				"gtsam/gtsam/linear/iterative.h",
+				"gtsam/gtsam/linear/linearAlgorithms-inst.h",
+				"gtsam/gtsam/linear/linearExceptions.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/linear",
+		"source" : "gtsam/gtsam/linear"
+	}
+}

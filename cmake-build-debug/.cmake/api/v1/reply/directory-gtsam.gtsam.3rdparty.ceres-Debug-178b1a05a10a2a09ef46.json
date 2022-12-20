@@ -1,0 +1,52 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/gtsam/3rdparty/ceres/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/3rdparty/ceres",
+			"paths" : 
+			[
+				"gtsam/gtsam/3rdparty/ceres/autodiff.h",
+				"gtsam/gtsam/3rdparty/ceres/eigen.h",
+				"gtsam/gtsam/3rdparty/ceres/example.h",
+				"gtsam/gtsam/3rdparty/ceres/fixed_array.h",
+				"gtsam/gtsam/3rdparty/ceres/fpclassify.h",
+				"gtsam/gtsam/3rdparty/ceres/jet.h",
+				"gtsam/gtsam/3rdparty/ceres/macros.h",
+				"gtsam/gtsam/3rdparty/ceres/manual_constructor.h",
+				"gtsam/gtsam/3rdparty/ceres/rotation.h",
+				"gtsam/gtsam/3rdparty/ceres/variadic_evaluate.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/gtsam/3rdparty/ceres",
+		"source" : "gtsam/gtsam/3rdparty/ceres"
+	}
+}
